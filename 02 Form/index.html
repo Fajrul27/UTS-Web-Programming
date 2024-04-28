@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pembayaran</title>
+  <link rel="stylesheet" href="style.css">
+  </style>
+</head>
+<body>
+  <h1>Formulir Pembayaran</h1>
+  <form>
+    <label for="nama-kartu">Nama di Kartu:</label>
+    <input type="text" id="nama-kartu" name="nama_kartu" required><br>
+
+    <label for="nomor-kartu">Nomor Kartu:</label>
+    <input type="text" id="nomor-kartu" name="nomor_kartu" required><br>
+
+    <label for="tanggal-berakhir">Data Berakhir (MM/YY):</label>
+    <input type="text" id="tanggal-berakhir" name="tanggal_berakhir" placeholder="contoh: 05/2024" required pattern="[0-9]{2}/[0-9]{4}">
+
+    <label for="kode-keamanan">Kode Keamanan:</label>
+    <input type="text" id="kode-keamanan" name="kode_keamanan" required><br>
+    <button type="submit">Bayar Rp300.00</button><br>
+  </form>
+</body>
+</html>

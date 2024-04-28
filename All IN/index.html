@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ahmadfajrululum</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+
+        <div class="nav-left">
+            <span>Ahmad Fajrul 'Ulum (22EO10027)</span>
+          </div>
+          
+        <ul class="nav-right">
+            <li class="dropdown">
+                <a href="#">Sosmed <i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                    <li><a href="https://web.facebook.com/ahmadfajrululum.ulum">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/ahmadfajrululumml/">Instagram</a></li>
+                    <li><a href="#">Tiktok</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+                <li class="dropdown">
+                    <a href="#">Fakultas<i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">FMIKOM</a></li>
+                    </ul>
+            <li><a href="#">Profil</a></li>
+            </li>
+        </ul>
+    </nav>
+
+
+    <h2 class="data-title">Data Mahasiswa</h2>
+
+    <form id="data-form">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br>
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required><br>
+
+        <label for="fakultas">Fakultas:</label>
+        <input type="text" id="fakultas" name="fakultas" required><br>
+
+        <label for="prodi">Prodi:</label>
+        <input type="text" id="prodi" name="prodi" required><br>
+
+        <button type="submit">Tambah Data</button>
+    </form>
+
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Fakultas</th>
+                <th>Prodi</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>  
+</body>
+</html>
